@@ -1,0 +1,29 @@
+.available-movies-button {
+  color: #f00;
+  margin-left: 16px;
+}
+
+.available-movies-button--enabled {
+  text-decoration: line-through;
+}
+
+.available-movies-button--enabled:hover {
+  text-decoration: line-through underline !important;
+}
+
+.film-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+
+.film-tile {
+  flex: 1 0 30%;
+  float: none !important;
+  margin-left: 0 !important;
+  margin-right: 10px !important;
+}
+
+.film-tile--hidden {
+  display: none !important;
+}
